@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "markedpp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1703667288,
+        "narHash": "sha256-pn9kGvvXdidWcVUXa/NaonRDDTdIgOv9wAIiwujRhs8=",
+        "owner": "commenthol",
+        "repo": "markedpp",
+        "rev": "53d2a4231f7f0e16ada6940312410100085a3950",
+        "type": "github"
+      },
+      "original": {
+        "owner": "commenthol",
+        "repo": "markedpp",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1703608956,
+        "narHash": "sha256-QgajlqdeV4hps+n1B9VbV+c7vqptLBnh0pukOEyliOg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "669c7d1478ec8b6b44ccd13e8db357591e1b2bce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "markedpp": "markedpp",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
